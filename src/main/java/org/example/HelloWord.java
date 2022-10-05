@@ -42,10 +42,11 @@ public class HelloWord {
                 System.out.println(result + "switch/case " + ('-' ) + "Число не равно 2, 5, 10");
         }
 
-        //переполнение - дает ошибку error: incompatible types: possible lossy conversion from int to byte. byte numberOne=128;
-            //byte numberOne=128;
-            //byte numberTwo=127;
-                //System.out.println(result + "переполнения " + ('-' ) + (numberOne+numberTwo));
+        //переполнение с выводом в консоль
+            byte numberOne = (byte) (Byte.MAX_VALUE + 1);
+            byte numberTwo = (byte) (Byte.MAX_VALUE + 2);
+        System.out.println(result + "переполнения - " + numberOne + " = Max_byte + 1");
+        System.out.println(result + "переполнения - " + numberTwo + " = Max_byte + 2");
 
         //Вычисления комбинаций типов данных (int и double)
             int firstValue=100;
