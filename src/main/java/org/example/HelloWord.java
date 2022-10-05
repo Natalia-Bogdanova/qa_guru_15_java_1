@@ -45,8 +45,8 @@ public class HelloWord {
         //переполнение с выводом в консоль
             byte numberOne = (byte) (Byte.MAX_VALUE + 1);
             byte numberTwo = (byte) (Byte.MAX_VALUE + 2);
-        System.out.println(result + "переполнения - " + numberOne + " = Max_byte + 1");
-        System.out.println(result + "переполнения - " + numberTwo + " = Max_byte + 2");
+        System.out.println(result + "переполнения равен " + numberOne + " = Max_byte + 1");
+        System.out.println(result + "переполнения равен " + numberTwo + " = Max_byte + 2");
 
         //Вычисления комбинаций типов данных (int и double)
             int firstValue=100;
